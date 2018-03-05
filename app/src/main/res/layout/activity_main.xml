@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.securityguards.activity.MainActivity">
+
+
+    <TextView
+       style="@style/titleStyle"
+        android:text="功能列表"/>
+    <!-- android:ellipsize="marquee"设置跑马灯文字，这个属性主要设置省略号的位置end表示设置在末尾-->
+    <!--还需要设置焦点,android:focusable="true"-->
+    <!--还需要设置触摸焦点，不然焦点一直在textview上 android:focusableInTouchMode="true"-->
+    <!--设置使得跑马灯一直跑起来， android:marqueeRepeatLimit="marquee_forever"-->
+    <com.example.administrator.securityguards.view.MyMarqueeTextView
+        android:text="秋天的魅力不如你得美丽，世界的宽阔不如你的心胸，这是一个美丽的日子这是一个高兴的日子"
+        android:singleLine="true"
+        android:padding="5sp"
+        android:textSize="15sp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridView
+        android:id="@+id/gd_mian"
+        android:numColumns="3"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        ></GridView>
+</LinearLayout>

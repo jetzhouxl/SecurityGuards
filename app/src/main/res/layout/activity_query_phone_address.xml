@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.securityguards.activity.QueryPhoneAddressActivity">
+
+    <TextView
+       style="@style/titleStyle"
+        android:text="电话号码查询"/>
+    <EditText
+        android:id="@+id/ed_phone_num_query"
+        android:hint="请输入电话号码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="查询地址"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="query"/>
+    <TextView
+        android:id="@+id/tv_address_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

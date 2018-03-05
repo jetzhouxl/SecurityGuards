@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--application-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--slashActivity-->
+    <color name="tv_version_slashActivity">#000000</color>
+    <color name="shadow_version">#ff0000</color>
+
+    <color name="pink">#fcc</color>
+    <color name="pressed">#ccc</color>
+
+</resources>

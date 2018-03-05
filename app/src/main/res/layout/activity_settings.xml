@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.securityguards.activity.SettingsActivity">
+
+    <TextView
+        style="@style/titleStyle"
+        android:text="设置中心"/>
+   <include
+       android:id="@+id/settings_item"
+       layout="@layout/seetings_item"/>
+    <include
+        android:id="@+id/settings_address"
+        layout="@layout/seetings_item"/>
+    <include
+        android:id="@+id/settings_toast_style"
+        layout="@layout/seting_item_click"
+        />
+</LinearLayout>
